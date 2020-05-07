@@ -1,0 +1,335 @@
+.firstdiv{
+    background-color: royalblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.ab{
+    display: flex;
+    flex-wrap: wrap;
+}
+#corona{
+    width: 1350px;
+}
+#social{
+    margin: 5px;
+}
+.innerdiv{
+    margin-right: 60px;
+   margin-left: 60px;
+}
+#but{
+    text-decoration: none;
+}
+#butt{
+    height: 30px;
+    color: white;
+}
+#say{
+    margin-left: 140px;
+}
+#opt{
+    margin-left: 200px;
+    border:  2px solid slateblue;
+    background-color: slateblue;
+    color: white;
+    text-decoration: none;
+    border-width: 8px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px; 
+}
+#opti{
+    color: black;
+    text-decoration: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 8px; 
+}
+#opti:hover{
+    background-color: slateblue;
+    color: white;
+}
+.news{
+    background-color: royalblue ;
+    margin-left: 38px;
+    margin-right: 30px;
+    padding: 3px;
+    height: 20px;
+    text-align: center;
+    max-width: 1250px;
+}
+#intro{
+    font-family: calibri;
+    font-size: 30px;
+    color: royalblue;
+}
+#duction{
+    font-family: calibri;
+    font-size: 30px;
+    color: green;
+}
+.paras{
+    font-family: calibri;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: gray;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8px
+}
+.infosec{
+    background-color: rgba(49, 62, 236, 0.986);
+    width: 330px;
+    height: 200px;
+    padding-top: 20px;
+}
+h1{
+    font-family: california;
+    font-weight: lighter;
+    font-size: 50px;
+    display: inline;
+    color: white;
+}
+#das{
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+#fam{
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+#med{
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+#edu{
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+
+h3{
+    display: inline;
+    color: greenyellow;
+}
+.col{
+    border: 4px solid wheat;
+    box-shadow: 5px 5px 3px gray;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    
+} 
+.doing{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 50px;
+}
+.miss{
+    display: flex;
+    flex-wrap: wrap;
+}
+#misshead{
+    color: royalblue;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: calibri;
+}
+#event{
+    font-size: 20px;
+    color: royalblue;
+    background-color: rgb(245, 248, 250);
+    font-weight: bold;
+    border: 2px solid slategrey;
+    height: 60px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.eventinnerdiv{
+    margin-left: 100px;
+}
+#missheadtwo{
+    color: royalblue;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: calibri;
+    padding-left: 30px;
+}
+.eventparas{
+    font-family: calibri;
+    font-size: 18px;
+    width: 300px;
+    color: gray;
+    margin-left: 30px;
+}
+.images{
+    padding: 30px;
+    padding-right:50px ;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact{
+    background-color: rgb(43, 42, 44);
+    padding: 50px;
+    color: gray;
+    font-family: calibri;
+    display: flex;
+    flex-wrap: wrap;
+}
+.address{
+    line-height: 10px; 
+    font-size: 15px;
+}
+.innerimg{
+    padding-left: 9px;
+}
+.link{
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 200px;
+    color: white;
+}
+.socialcontact{
+    color: white;
+    font-weight: bold;
+}
+.copyright{
+    background-color: royalblue;
+    color: white;
+    font-family: calibri;
+    height: 20px;
+    font-size: 13px;
+    padding: 10px;
+    padding-left: 55px;
+}
+#contsoc{
+    margin: 3px;
+    margin-top:8px;
+}
+#top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+@media only screen and (max-width: 600px){
+    .images{
+        padding: 10px;
+        padding-right:10px ;
+        padding-left: 45px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .paras{
+        font-family: calibri;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: gray;
+    }
+    #corona{
+        width: 360px;
+    }
+    .doing{
+        
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .link{
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 8px;
+        color: white;
+    }
+    .socialcontact{
+        color: white;
+        font-weight: bold;
+    }
+    .news{
+        background-color: royalblue ;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 5px;
+        height: 55px;
+        text-align: center;
+        
+    }
+    #say{
+        margin-left: 5px;
+    }
+    #opt{
+        margin-left: 1px;
+        border:  2px solid white;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 8px;
+        border-right-width: 10px;
+        border-left-width: 10px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px; 
+        display: block;
+    }
+    #opti{
+        color: black;
+        text-decoration: none;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 8px; 
+        display: block;
+    }
+    #opt:hover{
+        padding: 8px;
+        background-color: slateblue;
+        color: white;
+    }
+    #opti:hover{
+        background-color: slateblue;
+        color: white;
+    }
+    .firstdiv{
+        background-color: royalblue;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+    }
+    .eventinnerdiv{
+        margin-left: 10px;
+    }
+
+}
